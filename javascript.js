@@ -53,6 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalContent = document.querySelector(".modal-content");
     const closeBtn = document.querySelector(".close-btn");
 
+    // Ensure modal is hidden when page loads
+    modal.style.display = "none";
+
     // Function to Open Modal
     function openModal() {
         modal.style.display = "flex";
@@ -65,11 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.style.overflow = "auto"; // Enable scrolling
     }
 
-    // Open modal on button clicks
+    // Ensure buttons exist before adding event listeners
     if (resumeBtn) resumeBtn.addEventListener("click", openModal);
     if (resumeBtnFloating) resumeBtnFloating.addEventListener("click", openModal);
-
-    // Close modal when clicking close button
     if (closeBtn) closeBtn.addEventListener("click", closeModal);
 
     // Close modal when clicking outside modal content
