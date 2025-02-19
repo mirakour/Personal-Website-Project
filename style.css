@@ -85,8 +85,8 @@ nav ul li a:hover, .active {
     border-radius: 10px;
 }
 
-.card {
-    background: #1DB954;
+.card { /* nth-child Selector for Portfolio Cards */
+    background: #1DB954; /* Using nth-child for styling alternating elements */
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
