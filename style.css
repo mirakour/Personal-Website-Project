@@ -194,7 +194,7 @@ footer {
 
 /* Icons for Email, Phone, LinkedIn */
 .footer-icon {
-    width: 40px; /* Adjust for uniform size */
+    width: 40px; /* Adjust for uniform size ; Enforcing size */
     height: 40px;
     transition: transform 0.3s ease-in-out;
 }
