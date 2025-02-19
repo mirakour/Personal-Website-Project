@@ -314,7 +314,7 @@ footer {
 /* Resume Frame - Properly Scaled & Centered */
 .resume-frame {
     width: 100%;
-    height: 85vh;
+    height: 85vh; /* Uses `vh` to adapt to screen height */
     border: none;
 }
 
