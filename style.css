@@ -58,7 +58,7 @@ nav ul li a:hover, .active {
 .hero img {
     width: 300px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 50%; /* Using % proportional units for responsive sizing */
 }
 
 .hero h2 {
