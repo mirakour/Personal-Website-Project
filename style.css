@@ -383,10 +383,10 @@ form button:hover {
     background: #0A8A32;
 }
 
-/* Responsive Design */
+/* Responsive Design - Media Queries */
 @media (max-width: 768px) {
     form {
-        width: 90%;
+        width: 90%; /* Using media queries for smaller screens */
     }
 }
 
