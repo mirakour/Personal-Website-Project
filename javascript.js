@@ -92,3 +92,14 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector("#form");
+    const submitButton = document.querySelector("#submit");
+
+    form.addEventListener("submit", (e) => {
+        submitButton.disabled = true; // Prevent multiple submissions
+        e.preventDefault();
+        window.location.href = "success.html";
+    });
+});
