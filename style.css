@@ -330,7 +330,7 @@ footer {
     }
 }
 
-/* Contact Page Styles */
+/* Contact Page Styles - Using Flexbox */
 .contact {
     text-align: center;
     padding: 40px;
