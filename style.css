@@ -344,7 +344,7 @@ footer {
 
 /* Form Styling */
 form {
-    display: flex;
+    display: flex; /* Using flexbox for form layout */
     flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
